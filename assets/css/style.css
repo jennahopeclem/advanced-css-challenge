@@ -1,0 +1,155 @@
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #dcd6c9;
+}
+
+header {
+    padding: 15px;
+    width: 100%;
+    background-color: #c892b3;
+    color: #ffffff;
+}
+
+.portfolio {
+    text-align: center;
+    align-content: center;
+    font-family: 'Libre Baskerville';
+}
+
+.by-line {
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.header-text {
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+}
+
+/* .hero {
+    height: 50%;
+    width: 100%;
+    background-image: url("../images/web-project-header-img.pngß");
+} */
+
+.toc {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.photo-1 {
+    object-fit: scale-down;
+    width: 100%; 
+    text-align: center; 
+    margin-top:10%
+
+    height: fit-content;
+    padding: 50px;
+
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'monospace';
+    background-color: #6D6E80;
+    color: #ffffff;
+}
+
+.my-projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'monospace';
+    background-color: #6D6E80;
+    color: #ffffff;
+}
+
+.social-media {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'monospace';
+    background-color: #6D6E80;
+    color: #ffffff;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-header {
+    position: relative;
+    margin-top: -20px;
+    border-radius: 8px;
+    transition: all 0.5% ease-in;
+    white-space: pre-wrap;
+    overflow: auto;
+    tab-size: 4;
+    padding: 1.2rem 1rem;
+    color: var(--color);
+    border-radius: 8px;
+    background-image: linear-gradient(#c892b3 0%,#F2D4D7 100%);
+    display: flex;
+    align-items: center;
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    border: dashed 1px white;
+    min-width: 300px;
+    width: 300px;
+    align-items: center;
+    margin: 10px;
+}
+
+.column h2 { 
+    z-index: 1;
+    border: solid 1px white;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    width: 200px;
+    flex-direction: row;
+    color: var(--color);
+}
+
+a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #E9DCC9;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
