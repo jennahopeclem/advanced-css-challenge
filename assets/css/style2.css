@@ -1,0 +1,32 @@
+.banner {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+.banner img {
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+.welcome {
+    background-color: #c892b3;
+    color: #ffffff;
+}
+.banner .welcome {
+    background-color: #FEB614;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+.main-nav {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+}
+
+body {
+    background-color: #dcd6c9;
+}
